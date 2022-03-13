@@ -1,0 +1,78 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background: linear-gradient(#e66465, #9198e5);
+    background-attachment: fixed;background-repeat: no-repeat;
+
+}
+table{
+    margin-top: 4%;
+    border: 1px solid black;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+}
+button{
+    background-color: transparent;
+
+    width :4.5vw;
+    border: 0px;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5vw;
+}
+button:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.equal{
+    width: 4.5vw;
+    height: 12.8vh;
+}
+#res{
+    background-color: transparent;
+    /* box-shadow: 2px 2px gray; */
+    font-family: 'Courier New', Courier, monospace;
+    margin: 15px;
+    width: 23vw;
+    height: 8vh;
+    font-size: 2vw;
+    border: 0;
+}
+@media (max-width :500px)
+{
+    .name{
+        font-size: 5vw;
+    }
+    table{
+         margin-top: 20%;
+        font-weight: bold;
+    }
+    button{
+        width: 12vw;
+        height: 5vh;
+        font-size: 5.5vw;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+    #res{
+        width: 60vw;
+        height: 6vh;
+        font-size: 5.5vw;
+        font-weight: bold;
+    }
+    .equal{
+        width: 12vw;
+        height:12vh;
+    }
+}
+h1{
+    font-size: 2.5vw;
+    font-family:'Courier New', Courier, monospace;
+}
+h3{
+    font-size: 1.3vw;
+    font-family:'Courier New', Courier, monospace;
+    padding-top:5%;
+}

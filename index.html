@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="cal">
+<table  align="center">
+    <caption><h1 class="name">Simple Calculator</h1></caption>
+    <tr>
+        <td colspan="5" ><input type="" id="res"></td>
+    </tr>
+    <tr>
+        <td align="center"><button onclick="ac()">AC</button></td>
+        <td align="center"><button onclick="Show('/')">/</button></td>
+        <td align="center"><button onclick="Show('*')"> * </button></td>
+        <td align="center"><button onclick="del('&')">Del</button></td>
+    </tr>
+    <tr>
+        <td align="center"><button onclick="Show('7')">7</button></td>
+        <td align="center"><button onclick="Show('8')">8</button></td>
+        <td align="center"><button onclick="Show('9')">9</button></td>
+        <td align="center"><button onclick="Show('-')">-</button></td>
+    </tr>
+    <tr>
+        <td align="center"><button onclick="Show('4')">4</button></td>
+        <td align="center"><button onclick="Show('5')">5</button></td>
+        <td align="center"><button onclick="Show('6')">6</button></td>
+        <td align="center"><button onclick="Show('+')">+</button></td>
+    </tr>
+    <tr>
+        <td align="center"><button onclick="Show('1')">1</button></td>
+        <td align="center"><button onclick="Show('2')">2</button></td>
+        <td align="center"><button onclick="Show('3')">3</button></td>
+        <td align="center" rowspan="2" ><button class="equal" onclick="cal('=')">=</button></td>
+    </tr>
+    <tr>
+        <td align="center"><button onclick="Show('%')">%</button></td>
+        <td align="center"><button onclick="Show('0')">0</button></td>
+        <td align="center"><button onclick="Show('.')">.</button></td>
+    </tr>
+</table>
+</div>
+<caption><h3 class="name" style="text-align: center;">Made by S D</h3></caption>
+</body>
+<script type="text/javascript" src="calculator.js"></script>
+</html>
